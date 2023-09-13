@@ -1,0 +1,139 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34004.107
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EchoBot", "01.messaging.echoBot\EchoBot.csproj", "{D045C9A3-F421-4E8B-91D0-33A62C61DCCD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchCommand", "02.messageExtensions.a.searchCommand\SearchCommand.csproj", "{2523B6D1-DFE1-4512-ADB7-C8084E27A0AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypeAheadBot", "03.adaptiveCards.a.typeAheadBot\TypeAheadBot.csproj", "{B6A0748D-FE62-4B34-8379-65705C794426}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeamsChefBot", "04.ai.a.teamsChefBot\TeamsChefBot.csproj", "{C2964D35-6742-4DBF-9685-5DD5A01D8D82}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GPT", "04.ai.b.messageExtensions.gptME\GPT.csproj", "{DFB26AE8-961F-47B0-A5E6-015FDB54D93B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LightBot", "04.ai.c.actionMapping.lightBot\LightBot.csproj", "{3EFEE4A2-AB92-4011-BD04-626996D6B253}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListBot", "04.ai.d.chainedActions.listBot\ListBot.csproj", "{D97E2EB6-23D0-465E-B1AA-7043D1D73570}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevOpsBot", "04.ai.e.chainedActions.devOpsBot\DevOpsBot.csproj", "{ECA33BE1-3B61-416F-B835-ED35577E6E8E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwentyQuestions", "04.e.twentyQuestions\TwentyQuestions.csproj", "{42BB3677-327F-4BBC-A61D-AA5AA47B5B23}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuestBot", "04.q.questBot\QuestBot.csproj", "{B3FE771B-353E-4D3D-8286-9B57A924163C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.messaging.echoBot", "01.messaging.echoBot", "{2C0F34C3-7C0C-45F6-A632-08F989C8914E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.messageExtensions.a.searchCommand", "02.messageExtensions.a.searchCommand", "{5C56E28E-28F9-4B57-9F17-F6B69D657BCB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.adaptiveCards.a.typeAheadBot", "03.adaptiveCards.a.typeAheadBot", "{2ECDC898-95D2-40DD-912D-9DFE53A75E7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.ai.a.teamsChefBot", "04.ai.a.teamsChefBot", "{22057014-401D-4A45-A926-1CB3E64CE60B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.ai.b.messageExtensions.gptME", "04.ai.b.messageExtensions.gptME", "{CAA9D3B1-9312-4309-A8C8-0C288542F90B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.ai.c.actionMapping.lightBot", "04.ai.c.actionMapping.lightBot", "{A8E2F006-D4CF-45D6-9723-D3506489CF47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.ai.d.chainedActions.listBot", "04.ai.d.chainedActions.listBot", "{83E5B2BE-8A8C-4EE2-A0B7-3D10D3F59A15}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.ai.e.chainedActions.devOpsBot", "04.ai.e.chainedActions.devOpsBot", "{C48C779E-BD05-4F1C-8663-D63AB37E7D75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.e.twentyQuestions", "04.e.twentyQuestions", "{CE980998-D079-4ABF-9AB8-A90B56B7AD7D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.q.questBot", "04.q.questBot", "{951C921B-0C13-4844-AFF6-663FF30031B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "README", "README", "{2800D0AD-E98A-4E41-9084-30418F191AE0}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		assets\screenshot-0.png = assets\screenshot-0.png
+		assets\screenshot-1.png = assets\screenshot-1.png
+		assets\ttk-install.png = assets\ttk-install.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D045C9A3-F421-4E8B-91D0-33A62C61DCCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D045C9A3-F421-4E8B-91D0-33A62C61DCCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D045C9A3-F421-4E8B-91D0-33A62C61DCCD}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D045C9A3-F421-4E8B-91D0-33A62C61DCCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D045C9A3-F421-4E8B-91D0-33A62C61DCCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D045C9A3-F421-4E8B-91D0-33A62C61DCCD}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2523B6D1-DFE1-4512-ADB7-C8084E27A0AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2523B6D1-DFE1-4512-ADB7-C8084E27A0AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2523B6D1-DFE1-4512-ADB7-C8084E27A0AE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2523B6D1-DFE1-4512-ADB7-C8084E27A0AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2523B6D1-DFE1-4512-ADB7-C8084E27A0AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2523B6D1-DFE1-4512-ADB7-C8084E27A0AE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B6A0748D-FE62-4B34-8379-65705C794426}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6A0748D-FE62-4B34-8379-65705C794426}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6A0748D-FE62-4B34-8379-65705C794426}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B6A0748D-FE62-4B34-8379-65705C794426}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6A0748D-FE62-4B34-8379-65705C794426}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6A0748D-FE62-4B34-8379-65705C794426}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C2964D35-6742-4DBF-9685-5DD5A01D8D82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2964D35-6742-4DBF-9685-5DD5A01D8D82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2964D35-6742-4DBF-9685-5DD5A01D8D82}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C2964D35-6742-4DBF-9685-5DD5A01D8D82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2964D35-6742-4DBF-9685-5DD5A01D8D82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2964D35-6742-4DBF-9685-5DD5A01D8D82}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{DFB26AE8-961F-47B0-A5E6-015FDB54D93B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFB26AE8-961F-47B0-A5E6-015FDB54D93B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFB26AE8-961F-47B0-A5E6-015FDB54D93B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DFB26AE8-961F-47B0-A5E6-015FDB54D93B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFB26AE8-961F-47B0-A5E6-015FDB54D93B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFB26AE8-961F-47B0-A5E6-015FDB54D93B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3EFEE4A2-AB92-4011-BD04-626996D6B253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EFEE4A2-AB92-4011-BD04-626996D6B253}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EFEE4A2-AB92-4011-BD04-626996D6B253}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3EFEE4A2-AB92-4011-BD04-626996D6B253}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EFEE4A2-AB92-4011-BD04-626996D6B253}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EFEE4A2-AB92-4011-BD04-626996D6B253}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D97E2EB6-23D0-465E-B1AA-7043D1D73570}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D97E2EB6-23D0-465E-B1AA-7043D1D73570}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D97E2EB6-23D0-465E-B1AA-7043D1D73570}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D97E2EB6-23D0-465E-B1AA-7043D1D73570}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D97E2EB6-23D0-465E-B1AA-7043D1D73570}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D97E2EB6-23D0-465E-B1AA-7043D1D73570}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{ECA33BE1-3B61-416F-B835-ED35577E6E8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECA33BE1-3B61-416F-B835-ED35577E6E8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECA33BE1-3B61-416F-B835-ED35577E6E8E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{ECA33BE1-3B61-416F-B835-ED35577E6E8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECA33BE1-3B61-416F-B835-ED35577E6E8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECA33BE1-3B61-416F-B835-ED35577E6E8E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{42BB3677-327F-4BBC-A61D-AA5AA47B5B23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42BB3677-327F-4BBC-A61D-AA5AA47B5B23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42BB3677-327F-4BBC-A61D-AA5AA47B5B23}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{42BB3677-327F-4BBC-A61D-AA5AA47B5B23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42BB3677-327F-4BBC-A61D-AA5AA47B5B23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42BB3677-327F-4BBC-A61D-AA5AA47B5B23}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B3FE771B-353E-4D3D-8286-9B57A924163C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3FE771B-353E-4D3D-8286-9B57A924163C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3FE771B-353E-4D3D-8286-9B57A924163C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B3FE771B-353E-4D3D-8286-9B57A924163C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3FE771B-353E-4D3D-8286-9B57A924163C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3FE771B-353E-4D3D-8286-9B57A924163C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D045C9A3-F421-4E8B-91D0-33A62C61DCCD} = {2C0F34C3-7C0C-45F6-A632-08F989C8914E}
+		{2523B6D1-DFE1-4512-ADB7-C8084E27A0AE} = {5C56E28E-28F9-4B57-9F17-F6B69D657BCB}
+		{B6A0748D-FE62-4B34-8379-65705C794426} = {2ECDC898-95D2-40DD-912D-9DFE53A75E7F}
+		{C2964D35-6742-4DBF-9685-5DD5A01D8D82} = {22057014-401D-4A45-A926-1CB3E64CE60B}
+		{DFB26AE8-961F-47B0-A5E6-015FDB54D93B} = {CAA9D3B1-9312-4309-A8C8-0C288542F90B}
+		{3EFEE4A2-AB92-4011-BD04-626996D6B253} = {A8E2F006-D4CF-45D6-9723-D3506489CF47}
+		{D97E2EB6-23D0-465E-B1AA-7043D1D73570} = {83E5B2BE-8A8C-4EE2-A0B7-3D10D3F59A15}
+		{ECA33BE1-3B61-416F-B835-ED35577E6E8E} = {C48C779E-BD05-4F1C-8663-D63AB37E7D75}
+		{42BB3677-327F-4BBC-A61D-AA5AA47B5B23} = {CE980998-D079-4ABF-9AB8-A90B56B7AD7D}
+		{B3FE771B-353E-4D3D-8286-9B57A924163C} = {951C921B-0C13-4844-AFF6-663FF30031B2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {71E00E6B-3A1F-4EE6-8F27-98ED1E61E8FD}
+	EndGlobalSection
+EndGlobal
